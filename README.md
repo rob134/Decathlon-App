@@ -16,7 +16,7 @@ Aplicação Angular para processar e exibir resultados do Decathlon.
    git clone https://github.com/seu-usuario/decathlon-app.git
 2.Instale as dependências:
  ```bash
-npm install
+  npm install
 3.Execute o servidor de desenvolvimento:
 ```bash
-ng serve
+  ng serve
