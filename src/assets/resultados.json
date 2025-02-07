@@ -1,0 +1,62 @@
+[
+    {
+      "nome": "Atleta 1",
+      "resultados": {
+        "100 m": 10.395,
+        "Salto à distância": 7.76,
+        "Arremesso": 18.4,
+        "Salto em altura": 2.20,
+        "400 m": 46.17,
+        "110 m com barreiras": 13.8,
+        "Lançamento de Disco": 56.17,
+        "Salto com Vara": 5.28,
+        "Lançamento de Dardos": 77.19,
+        "1500 m": 233.79
+      }
+    },
+    {
+      "nome": "Atleta 2",
+      "resultados": {
+        "100 m": 10.827,
+        "Salto à distância": 7.36,
+        "Arremesso": 16.79,
+        "Salto em altura": 2.10,
+        "400 m": 48.19,
+        "110 m com barreiras": 14.59,
+        "Lançamento de Disco": 51.4,
+        "Salto com Vara": 4.96,
+        "Lançamento de Dardos": 70.67,
+        "1500 m": 247.42
+      }
+    },
+    {
+      "nome": "Atleta 3",
+      "resultados": {
+        "100 m": 11.278,
+        "Salto à distância": 6.941,
+        "Arremesso": 15.16,
+        "Salto em altura": 1.99,
+        "400 m": 50.32,
+        "110 m com barreiras": 15.419,
+        "Lançamento de Disco": 46.59,
+        "Salto com Vara": 4.63,
+        "Lançamento de Dardos": 64.09,
+        "1500 m": 261.77
+      }
+    },
+    {
+      "nome": "Atleta 4",
+      "resultados": {
+        "100 m": 11.756,
+        "Salto à distância": 6.51,
+        "Arremesso": 13.53,
+        "Salto em altura": 1.88,
+        "400 m": 52.58,
+        "110 m com barreiras": 16.29,
+        "Lançamento de Disco": 41.72,
+        "Salto com Vara": 4.29,
+        "Lançamento de Dardos": 57.45,
+        "1500 m": 276.96
+      }
+    }
+  ]

@@ -1,0 +1,19 @@
+<!-- src/app/componentes/resultados/resultados.component.html -->
+<h1>Resultados do Decathlon</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Posição</th>
+      <th>Nome</th>
+      <th>Pontuação Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let atleta of atletas; let i = index">
+      <td>{{ i + 1 }}</td>
+      <td>{{ atleta.nome }}</td>
+      <td>{{ atleta.pontuacaoTotal }}</td>
+    </tr>
+  </tbody>
+</table>
+<button (click)="exportarCSV()">Exportar CSV</button>

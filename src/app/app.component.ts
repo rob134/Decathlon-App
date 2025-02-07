@@ -1,12 +1,18 @@
+// src/app/app.component.ts
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
+  standalone: true,
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: `
+    <nav>
+      <a routerLink="/">Resultados</a>
+      <a routerLink="/sobre">Sobre</a>
+    </nav>
+    <router-outlet></router-outlet>
+  `,
+  imports: [RouterModule], // Importa o RouterModule para usar diretivas como routerLink e router-outlet
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'decathlon-app';
-}
+export class AppComponent {}
